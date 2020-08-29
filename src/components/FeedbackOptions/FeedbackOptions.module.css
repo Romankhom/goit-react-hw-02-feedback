@@ -1,0 +1,23 @@
+.list {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.item {
+  padding: 0 2px;
+}
+
+.button {
+  width: 70px;
+  height: 30px;
+  border-radius: 10%;
+  background-color: #fff;
+  font: inherit;
+}
+
+.button:first-letter {
+  text-transform: uppercase;
+}
+
+
